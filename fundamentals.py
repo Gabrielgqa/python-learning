@@ -18,3 +18,12 @@ print(type(booll))
 # Python -i (abre arquivo no modo interativo usando a função abaixo trás todas as formas de interação disponíveis)
 dir(nome)
 # Conectivos lógicos and, or, not
+#Condicionais sem parênteses e elif
+x = 7
+y = 6
+if x == y:
+    print('Mesmo valor')
+elif x > y:
+    print('x é maior que y')
+else:
+    print(f'Não sei resolver {x} e {y}')
